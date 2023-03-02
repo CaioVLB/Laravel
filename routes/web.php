@@ -29,5 +29,7 @@ Route::get('/usuarios/{qnt}', [SiteController::class, 'users']);
 
 Route::get('/pessoas', [AppController::class, 'pess']);
 
+Route::get('/layout', [SiteController::class, 'layout']);
+Route::get('/layout2', [SiteController::class, 'layout2']);
 //Route::get('/', [SiteController::class, 'index'])->name('Qualquer');
 

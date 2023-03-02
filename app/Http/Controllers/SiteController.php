@@ -43,6 +43,14 @@ class SiteController extends Controller
 
         return view('usuarios', $data);
     }
+
+    public function layout() {
+        return view('site');
+    }
+
+    public function layout2() {
+        return view('pagina2');
+    }
 }
 
 /*
